@@ -6,6 +6,8 @@ The rise in population across the globe has created a lot of opportunities in th
 ## Defining the system
 The parameters of the aspiration level model depends upon the average arrival rate of EVs at the FCS, average charging rate and the system capacity of the FCS. The system capacity of the FCS can be either finite or infinite. According to the system data given, the average time spent by the EV in FCS and percentage idlness of the charging piles are calculated and based on the thresholds for the same given, the aspiration level model gives out the optimal number of charging piles for the FCS which helps in providing good quality of service to the EV users.
 ## SWOT ANALYSIS
+![swot analysis](https://user-images.githubusercontent.com/61261829/114737418-9fe7ef80-9d64-11eb-8c99-46665f1886e1.png)
+
 # 4W's and 1'H
 ## Who:
 The solution of the aspiration level model helps the FCS in providing quality of service to the EV users.
