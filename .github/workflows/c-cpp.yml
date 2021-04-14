@@ -13,5 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make
-      run: make all /3_Implementation
+    - name: make execute
+      run: make execute -c 3_Implementation
