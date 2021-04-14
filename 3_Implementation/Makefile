@@ -7,7 +7,7 @@ else
    ifeq ($(shell uname), Linux)
       RM = rm -rf
       FixPath = $1
-	  EXEC = out
+	  EXEC = out -lm
    endif
 endif
 
@@ -17,6 +17,7 @@ COVERAGE_PROJ_NAME=COVERAGE_$(TEST_PROJ_NAMEPROJ_NAME)
 
 PROJ_NAME= Aspriration_Level_Model
 
+BUILD_DIR=Build
 
 # All include folders with header files
 INC =-Iinc -Iunity
@@ -35,7 +36,7 @@ PROJECT=project_main.c
 .PHONY : all test coverage run clean doc
 
 all:
-	gcc $(SRC) $(TEST) $(UNITY) $(INC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+	gcc $(SRC) $(TEST) $(UNITY) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 # Call `make run` to run the test cases
 run: all
@@ -43,10 +44,10 @@ run: all
 	
 # Call 'make execute' to run the main program
 main:
-	gcc $(SRC) $(PROJECT) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+	gcc $(SRC) $(PROJECT) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 	
 execute:
-	$(call FixPath,$(PROJ_NAME).$(EXEC))
+	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 	
 #Call 'make cpp' for static code analysis
 cpp:
@@ -62,3 +63,6 @@ memcheck:
 	
 clean:
 	$(RM) $(call FixPath,$(BUILD_DIR)/* *.gcda *.gcov *.gcno)
+
+$(BUILD_DIR):
+			mkdir $(BUILD_DIR)
