@@ -1,7 +1,7 @@
 # Aspiration Level Model for Fast Charging Stations
 Mini Project for Project Based C Learning
 
-|Build|Unit Test|cppcheck|Valgrind|Codacy|
+|Build|Unit Test|cppcheck|Valgrind|Codacy|Code Coverage|
 |:--:|:--:|:--:|:--:|:--:|
 [![C/C++ CI - Build Status](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-build.yml/badge.svg)]|
 
