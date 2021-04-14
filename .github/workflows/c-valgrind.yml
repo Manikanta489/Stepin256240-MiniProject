@@ -1,12 +1,12 @@
 name: CodeQuality Dynamic Code Analysis Valgrind
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
-  test:
+  build:
 
     runs-on: ubuntu-latest
 
@@ -16,7 +16,7 @@ jobs:
       run: |
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: make execute
-      run: make execute -C 3_Implementation
-    - name: Valgrid
-      run: make memcheck -C 3_Implementation
+    - name: make test
+      run: |
+        make execute -C 3_Implementation
+        valgrind 3_Implementation/Build/Aspriration_Level_Model.out
