@@ -19,6 +19,8 @@ PROJ_NAME= Aspriration_Level_Model
 
 BUILD_DIR = Build
 
+$(BUILD_DIR):
+	mkdir $(BUILD_DIR)
 # All include folders with header files
 INC =-Iinc -Iunity
 
