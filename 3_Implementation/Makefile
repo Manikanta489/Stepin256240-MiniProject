@@ -43,10 +43,10 @@ run: all
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	
 # Call 'make execute' to run the main program
-main:
-	gcc $(SRC) $(PROJECT) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
+
 	
 execute:
+	gcc $(SRC) $(PROJECT) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 	
 #Call 'make cpp' for static code analysis
