@@ -23,7 +23,7 @@ BUILD_DIR=Build
 INC =-Iinc -Iunity
 
 # All source code files
-SRC = src\decision_making.c src\factorial.c src\parameters.c src\possible_number_of_charging_piles.c src\queue_parameters.c
+SRC = src/decision_making.c src/factorial.c src/parameters.c src/possible_number_of_charging_piles.c src/queue_parameters.c
 
 # All test source files
 TEST=test\test_cases_ALM.c
