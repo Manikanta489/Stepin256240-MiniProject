@@ -2,7 +2,7 @@
 Mini Project for Project Based C Learning
 
 |Build|Unit Test|cppcheck|Valgrind|Codacy|Code Coverage|
-|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|:--:|:--:|
 [![C/C++ CI - Build Status](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-build.yml/badge.svg)]|
 
 [![C/C++ CI](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-test.yml/badge.svg)]|
