@@ -57,7 +57,7 @@ coverage:
 	gcov -a $(SRC) $(TEST) $(UNITY)
 
 memcheck:
-	valgrind ./$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC));
+	valgrind ./$(PROJ_NAME).$(EXEC)
 	
 clean:
 	$(RM) $(call FixPath,$(BUILD_DIR)/* *.gcda *.gcov *.gcno)
