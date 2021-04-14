@@ -5,3 +5,4 @@ Mini Project for Project Based C Learning
 
 [![C/C++ CI](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-test.yml/badge.svg)](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-test.yml)
 
+[![Code Quality - Static Code - cppcheck](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-cpp.yml)
