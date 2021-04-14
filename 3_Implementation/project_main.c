@@ -10,7 +10,7 @@ int main()
     scanf("%f %f",&(EVFCS->average_arrival_rate),&(EVFCS->average_service_rate));
     printf("Enter the maximum charging piles:\n");
     scanf("%d",&(EVFCS->maximum_charging_piles));
-    printf("Enter the threshold of Average waiting time of EV in FCS and Percentage idleness of charging piles respectively(seperated by unit space):\n");
+    printf("Enter the threshold of Average waiting time of EV in FCS(in minutes) and Percentage idleness of charging piles respectively(seperated by unit space):\n");
     scanf("%d %d",&(EVFCS->average_waiting_time_in_FCS_threshold),&(EVFCS->percentage_idleness_threshold));
     queuing_system *FCS=(queuing_system*)(malloc((EVFCS->total_possible_charging_piles)*sizeof(queuing_system)));
     error_code=parameters(EVFCS);

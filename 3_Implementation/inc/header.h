@@ -25,7 +25,7 @@ typedef enum
 
 }error_t;
 /**
- * Structure which contains the FCS parameters 
+ * Structure which contains the FCS parameters: Average arrival rate (number of EVs/h), Average Service rate (number of EVs/h), maximum_charging_piles (entered by user), average_waiting_time_in_FCS_threshold (in minutes, entered by user) percentage_idleness_threshold(entered by user),
  */
 typedef struct
 {
