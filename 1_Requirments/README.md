@@ -1,4 +1,5 @@
 # Requirements
+
 ## Introduction
 The rise in population across the globe has created a lot of opportunities in the transportation sector. Electric Vehicle (EV) is the sustainable solution to mitigate the emission of green house gases from the internal combustion engine vehicles. Thus, Fast Charging Stations (FCS) are gaining a lot of importance from the EV sector. The battery inside the EV gets refulled at the FCS in a quicker pace. However, the EV has to wait in queue before getting into the service as the charging time of the battery is not in fraction of seconds. Thus, the FCS has to plan its service so as to minimize the waiting time of the EV user in the station. This guarantees the quality of service to the EV users. The number of charging piles determines the level of service for a FCS. Any service station can be represented using a queuing model. Queuing theory is the branch of the Operations Research which formulates various queuing models. Queuing models arise from two independent models: (1) Pure birth model , (2) Pure deadth model. In pure birth model, only arrivals can occur whereas, in pure deadth model only the departures can take place. The combination of these two models can accurately represent any service station, where both arrivals and departures occur. 
 
@@ -27,8 +28,10 @@ In queuing theory, arrivals are distributed using Poission probability function.
 The optimum level of service guarantees good quality of service and it can be evaluated using two models : (1) Cost Model and (2) Aspiration level model. Both model proves taht a higher service level reduces the waiting time of customers in a service station, but higher service level increases the costs of the station. Thus the goal is to strike the balance between the service level and the waiting time of customers in the system. The main aim of the cost model is to minimize the sum of facility costs and waiting time costs. Generally these parameters are difficult to estimate. Thus, there is a necessity to evaluate the optimum service level for a service station which does not require any estimation of parameters.Aspiration level model is an another decision making model which allievates this problem by limiting the time spent by EV in FCS and percentage idleness of charging piles in FCS. Minimizing the time spent by EV in FCS maximizes the customer's satisfaction and minimizing the percenatge idlness of charging piles shows faith in money utilized in purchasing the charging piles. Aspiration level model is used in preplan the Fast Charging Stations in EV developing countries like India, as it has less dependency on the data.
 
 # Research
+
 ## Objectives
 * To find the optimum charging piles for a Fast Charging Station using Aspiration level model.
+
 ## Costs and Features
 * Previously Aspiration level model is carried out using hand calculations. 
 
@@ -76,6 +79,7 @@ The aspiration level model is used in many service centers such as Fast Charging
 ## How
 The aspiration level model determines the optimal number of charging piles for a FCS so that it can give the best serice to the EV users.
 # Detail Requirements
+
 ## High Level Requirements
 | ID | Description|Category|Status| 
 | ------ | ------ |------|--------|
