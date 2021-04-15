@@ -34,7 +34,7 @@ Fast Charging Station in Beijing is considered for the case stduy. The following
 |Average Service rate|2 EVs/h|Capcity of the battery|30 kWh|
 |Radius of FCS|1.24 km|Electricity charging speed|40kW|
 |Density of EV's| 150EV/km2| Total operatinh hours of FCS| 16h|
-|Distance travelled by EV before recharging|50 km| Incoming SOC of EV| 30%|
+|Distance travelled by EV before recharging|50 km| Incoming SOC of EV|0.3|
 
 The parameters of the aspiration level model depends upon the average arrival rate of EVs at the FCS, average charging rate and the system capacity of the FCS. The system capacity of the FCS can be either finite or infinite. According to the system data given, the average time spent by the EV in FCS and percentage idlness of the charging piles are calculated and based on the thresholds for the same given, the aspiration level model gives out the optimal number of charging piles for the FCS which helps in providing good quality of service to the EV users.
 ## SWOT ANALYSIS
