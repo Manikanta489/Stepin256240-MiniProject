@@ -36,7 +36,14 @@ Fast Charging Station in Beijing is considered for the test case study. The foll
 |Density of EV's| 150EV/km2| Total operatinh hours of FCS| 16h|
 |Distance travelled by EV before recharging|50 km| Incoming SOC of EV|0.3|
 
-In the present work, the system capacity of the FCS is assumed to be **infinite** . The user has to enter the average arrival rate, average service rate, the maximum number of charging piles, threshold on the average waiting time of the EV in FCS and threshold on percentage idleness of charging piles. The user will finally get information about minimum and maximum optimal charging piles of the FCS. If the optimal number of charging 
+In the present work, the system capacity of the FCS is assumed to be **infinite** . The user has to enter the average arrival rate, average service rate, the maximum number of charging piles, threshold on the average waiting time of the EV in FCS and threshold on percentage idleness of charging piles. The user will finally get information about minimum and maximum optimal charging piles of the FCS.
+
+* If the entered data is not valid i.e., if any data entered by the user is non-positive an error message is displayed for the same
+
+* If memory couldn't be allocated an error message is displayed for the same
+
+* If the optimal number of charging piles can't be found for the entered data -1 and -1 is returned for minimum and optimum charging piles.
+
 ## SWOT ANALYSIS
 ![swot analysis](https://user-images.githubusercontent.com/61261829/114737418-9fe7ef80-9d64-11eb-8c99-46665f1886e1.png)
 
