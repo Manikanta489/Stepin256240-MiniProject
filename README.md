@@ -19,12 +19,12 @@ Folder             | Description
 `7_Other`          | Related other documents
 
 ## GitHub Actions
-* Build using Make for CI
+*  Build using Make for CI
 
-* Unit tests with Cunit
+*  Unit tests with Cunit
 
-* Static code analysis using cppcheck
+*  Static code analysis using cppcheck
 
-* Dynamic Code analysis using Valgrind
+*  Dynamic Code analysis using Valgrind
 
-* Code Quality using Codacy
+*  Code Quality using Codacy
