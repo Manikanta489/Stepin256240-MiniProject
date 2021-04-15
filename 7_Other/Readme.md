@@ -39,3 +39,10 @@
   number={},
   pages={1-7},
   doi={10.1049/ic.2015.0243}}
+  
+  @BOOK{
+  author={Hamdy A. Taha}
+  book title={Operations Research}
+  pubilication={Pearson publication}
+  edition={9}
+  year={2011}}
