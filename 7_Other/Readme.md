@@ -56,3 +56,13 @@
   number={5},
   pages={4689-4701},
   doi={10.1109/TSG.2017.2666815}}
+
+@ARTICLE{8675426,
+  author={F. {Varshosaz} and M. {Moazzami} and B. {Fani} and P. {Siano}},
+  journal={IEEE Transactions on Industrial Informatics}, 
+  title={Day-Ahead Capacity Estimation and Power Management of a Charging Station Based on Queuing Theory}, 
+  year={2019},
+  volume={15},
+  number={10},
+  pages={5561-5574},
+  doi={10.1109/TII.2019.2906650}}
