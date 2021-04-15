@@ -46,3 +46,13 @@
   pubilication={Pearson publication}
   edition={9}
   year={2011}}
+
+@ARTICLE{7849121,
+  author={B. {Sun} and X. {Tan} and D. H. K. {Tsang}},
+  journal={IEEE Transactions on Smart Grid}, 
+  title={Optimal Charging Operation of Battery Swapping and Charging Stations With QoS Guarantee}, 
+  year={2018},
+  volume={9},
+  number={5},
+  pages={4689-4701},
+  doi={10.1109/TSG.2017.2666815}}
