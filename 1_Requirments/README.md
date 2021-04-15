@@ -3,13 +3,21 @@
 The rise in population across the globe has created a lot of opportunities in the transportation sector. Electric Vehicle (EV) is the sustainable solution to mitigate the emission of green house gases from the internal combustion engine vehicles. Thus, Fast Charging Stations (FCS) are gaining a lot of importance from the EV sector. The battery inside the EV gets refulled at the FCS in a quicker pace. However, the EV has to wait in queue before getting into the service as the charging time of the battery is not in fraction of seconds. Thus, the FCS has to plan its service so as to minimize the waiting time of the EV user in the station. This guarantees the quality of service to the EV users. The number of charging piles determines the level of service for a FCS. Any service station can be represented using a queuing model. Queuing theory is the branch of the Operations Research which formulates various queuing models. Queuing models arise from two independent models: (1) Pure birth model , (2) Pure deadth model. In pure birth model, only arrivals can occur whereas, in pure deadth model only the departures can take place. The combination of these two models can accurately represent any service station, where both arrivals and departures occur. 
 
 In general, a queuing model is represented as:
+
                                                               (A/B/C) :( D/E/F)
+                                                              
 Where,
+
 A- Distribution of number of arrivals per unit time
+
 B- Service time distribution
+
 C- Number of parallel servers
+
 D- Queue discipline
+
 E- Capacity of the system (Finite/Infinite)
+
 F- Size of calling population (Finite/Infinite)
 
 
