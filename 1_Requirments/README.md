@@ -30,7 +30,7 @@ The optimum level of service guarantees good quality of service and it can be ev
 # Research
 
 ## Objectives
-* To find the optimum charging piles for a Fast Charging Station using Aspiration level model.
+*  To find the optimum charging piles for a Fast Charging Station using Aspiration level model.
 
 ## Costs and Features
 * Previously Aspiration level model is carried out using hand calculations. 
