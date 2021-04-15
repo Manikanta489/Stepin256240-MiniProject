@@ -16,7 +16,7 @@ Folder             | Description
 `4_Test_plan`      | Documents with test plans and procedures
 `5_Report`         | Documents with overall report
 `6_ImagesAndVideos`| Related Videos and images regarding project
-`7_Other`          | Related other documents
+`7_Other`          | References
 
 ## GitHub Actions
 *  Build  using  Make  for  CI
