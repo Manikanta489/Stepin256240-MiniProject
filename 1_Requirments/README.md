@@ -30,13 +30,13 @@ The optimum level of service guarantees good quality of service and it can be ev
 ## Objectives
   * To find the optimum charging piles for a Fast Charging Station using Aspiration level model.
 ## Costs and Features
-  *  Previously Aspiration level model is carried out using hand calculations.
+*  Previously Aspiration level model is carried out using hand calculations.
 
-  *  Hand calculations are complex to evaluate queue measures.
+*  Hand calculations are complex to evaluate queue measures.
 
-  *  With the introdcution of digital computers, Aspiration level model is solved with the help of programming languages such as C.
+*  With the introdcution of digital computers, Aspiration level model is solved with the help of programming languages such as C.
 
-  *  Using C language, the model is solved in quick time.
+*  Using C language, the model is solved in quick time.
 Fast Charging Station in Beijing is considered for the test case study. The following table lists out the parameters for the FCS.
 
 |Parameter|Value|Parameter|Value|
@@ -53,11 +53,11 @@ In the present work, the system capacity of the FCS is assumed to be **infinite*
     - Input 2-> Maximum number of charging piles (should be positive)
     - Input 3-> Threshold on Average time spent by EV in FCS (should be positive, enter in minutes) and Threshold on percentage idleness of charging piles (should be positive)
 
-  *  If the entered data is not valid i.e., if any data entered by the user is non-positive an error message is displayed for the same
+*  If the entered data is not valid i.e., if any data entered by the user is non-positive an error message is displayed for the same
 
-  *  If memory couldn't be allocated an error message is displayed for the same
+*  If memory couldn't be allocated an error message is displayed for the same
 
-  *  If the optimal number of charging piles can't be found for the entered data -1 and -1 is returned for minimum and optimum charging piles.
+*  If the optimal number of charging piles can't be found for the entered data -1 and -1 is returned for minimum and optimum charging piles.
 
 ## SWOT ANALYSIS
 ![SWOT ANALYSIS](https://user-images.githubusercontent.com/61261829/114876716-388d7680-9e1c-11eb-961c-18b791c09027.png)
