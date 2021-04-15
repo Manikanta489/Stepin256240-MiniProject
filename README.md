@@ -19,7 +19,7 @@ Folder             | Description
 `7_Other`          | Related other documents
 
 ## GitHub Actions
-*  Build using Make for CI
+*  Build  using  Make  for  CI
 
 *  Unit tests with Cunit
 
