@@ -30,11 +30,16 @@ The optimum level of service guarantees good quality of service and it can be ev
 ## Objectives
 * To find the optimum charging piles for a Fast Charging Station using Aspiration level model.
 ## Costs and Features
-* Previously Aspiration level model is carried out using hand calculations.
-* Hand calculations are complex to evaluate queue measures.
+* Previously Aspiration level model is carried out using hand calculations. 
+
+* Hand calculations are complex to evaluate queue measures. 
+
 * With the introdcution of digital computers, Aspiration level model is solved with the help of programming languages such as C.
+
 * Using C language, the model is solved in quick time.
+
 Fast Charging Station in Beijing is considered for the test case study. The following table lists out the parameters for the FCS.
+
 
 |Parameter|Value|Parameter|Value|
 |----------|---------|-----------|----------|
