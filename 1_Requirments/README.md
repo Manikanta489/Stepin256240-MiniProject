@@ -56,7 +56,9 @@ In the present work, the system capacity of the FCS is assumed to be **infinite*
     - Input 3-> Threshold on Average time spent by EV in FCS (should be positive, enter in minutes) and Threshold on percentage idleness of charging piles (should be positive)
 
 * If the entered data is not valid i.e., if any data entered by the user is non-positive an error message is displayed for the same
+
 * If memory couldn't be allocated an error message is displayed for the same
+
 * If the optimal number of charging piles can't be found for the entered data -1 and -1 is returned for minimum and optimum charging piles.
 
 ## SWOT ANALYSIS
