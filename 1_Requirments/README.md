@@ -63,15 +63,15 @@ In the present work, the system capacity of the FCS is assumed to be **infinite*
 ![SWOT ANALYSIS](https://user-images.githubusercontent.com/61261829/114876716-388d7680-9e1c-11eb-961c-18b791c09027.png)
 
 # 4W's and 1'H
-## Who:
+## Who
 The solution of the aspiration level model helps the FCS in providing quality of service to the EV users.
-## What:
+## What
 The aspiration level model is one of the decision making model which is used to find the suitable service level for the Fast Charging Stations.
-## When:
+## When
 The aspiration level model is used during the pre-planning of the Fast Charging Stations.
-## Where:
+## Where
 The aspiration level model is used in many service centers such as Fast Charging Stations.
-## How:
+## How
 The aspiration level model determines the optimal number of charging piles for a FCS so that it can give the best serice to the EV users.
 # Detail Requirements
 ## High Level Requirements
