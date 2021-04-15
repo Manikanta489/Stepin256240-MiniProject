@@ -1,13 +1,23 @@
 # Requirements
 ## Introduction
-The rise in population across the globe has created a lot of opportunities in the transportation sector. Electric Vehicle (EV) is the sustainable solution to mitigate the emission of green house gases from the internal combustion engine vehicles. Thus, Fast Charging Stations (FCS) are gaining a lot of importance from the EV sector. The battery inside the EV gets refulled at the FCS in a quicker pace. However, the EV has to wait in queue before getting into the service as the charging time of the battery is not in fraction of seconds. Thus, the FCS has to plan its service so as to minimize the waiting time of the EV user in the station. This guarantees the quality of service to the EV users. The number of charging piles determines the level of service for a FCS. Any service station can be represented using a queuing model. Queuing theory is the branch of the Operations Research which formulates various queuing models. Queuing models arise from two independent models: (1) Pure birth model , (2) Pure deadth model. In pure birth model, only arrivals can occur whereas, in pure deadth model only the departures can take place. The combination of these two models can accurately represent any service station, where both arrivals and departures occur. In general, a queuing model is represented as:
+The rise in population across the globe has created a lot of opportunities in the transportation sector. Electric Vehicle (EV) is the sustainable solution to mitigate the emission of green house gases from the internal combustion engine vehicles. Thus, Fast Charging Stations (FCS) are gaining a lot of importance from the EV sector. The battery inside the EV gets refulled at the FCS in a quicker pace. However, the EV has to wait in queue before getting into the service as the charging time of the battery is not in fraction of seconds. Thus, the FCS has to plan its service so as to minimize the waiting time of the EV user in the station. This guarantees the quality of service to the EV users. The number of charging piles determines the level of service for a FCS. Any service station can be represented using a queuing model. Queuing theory is the branch of the Operations Research which formulates various queuing models. Queuing models arise from two independent models: (1) Pure birth model , (2) Pure deadth model. In pure birth model, only arrivals can occur whereas, in pure deadth model only the departures can take place. The combination of these two models can accurately represent any service station, where both arrivals and departures occur. 
+
+In general, a queuing model is represented as:
+
                                                               (A/B/C) :( D/E/F)
+                                                              
 Where,
+
 A- Distribution of number of arrivals per unit time
+
 B- Service time distribution
+
 C- Number of parallel servers
+
 D- Queue discipline
+
 E- Capacity of the system (Finite/Infinite)
+
 F- Size of calling population (Finite/Infinite)
 
 
@@ -18,12 +28,14 @@ The optimum level of service guarantees good quality of service and it can be ev
 ## Costs and Features
 ## Defining the system
 Fast Charging Station in Beijing is considered for the case stduy. The following table lists out the parameters for the FCS.
-| Average Arrival Rate | 
-|Average Service rate|
-|Radius of FCS|
-|Density of EV's|
-| ------ | ------ |
-|6.9 EVs/h|2 EVs/h|
+
+| Average Arrival Rate |6.9 EVs/h| Electricity Consumed|0.2 kWh/km|
+|----------------------|---------|------------------|--------|
+|Average Service rate|2 EVs/h|Capcity of the battery|30 kWh|
+|Radius of FCS|1.24 km|Electricity charging speed|40kW|
+|Density of EV's| 150EV/km2| Total operatinh hours of FCS| 16h|
+|Distance travelled by EV before recharging|50 km| Incoming SOC of EV| 30%|
+
 The parameters of the aspiration level model depends upon the average arrival rate of EVs at the FCS, average charging rate and the system capacity of the FCS. The system capacity of the FCS can be either finite or infinite. According to the system data given, the average time spent by the EV in FCS and percentage idlness of the charging piles are calculated and based on the thresholds for the same given, the aspiration level model gives out the optimal number of charging piles for the FCS which helps in providing good quality of service to the EV users.
 ## SWOT ANALYSIS
 ![swot analysis](https://user-images.githubusercontent.com/61261829/114737418-9fe7ef80-9d64-11eb-8c99-46665f1886e1.png)
