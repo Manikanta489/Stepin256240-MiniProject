@@ -38,6 +38,7 @@ The optimum level of service guarantees good quality of service and it can be ev
 * With the introdcution of digital computers, Aspiration level model is solved with the help of programming languages such as C.
 * Using C language, the model is solved in quick time.
 Fast Charging Station in Beijing is considered for the test case study. The following table lists out the parameters for the FCS.
+
 |Parameter|Value|Parameter|Value|
 |----------|---------|-----------|----------|
 |Average Arrival Rate |6.9 EVs/h| Electricity Consumed|0.2 kWh/km|
