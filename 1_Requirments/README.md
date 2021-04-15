@@ -77,7 +77,7 @@ The aspiration level model determines the optimal number of charging piles for a
 ## High Level Requirements
 | ID | Description|Category|Status| 
 | ------ | ------ |------|--------|
-HR01|To provide quality of service to the EV users|Technical|Implemented
+HR01|To provide quality of service to the EV users for the given description of FCS|Technical|Implemented
 ## Low Level Requirements
 | ID | Description|HLR ID|Status| 
 | ------ | ------ |------|-----|
