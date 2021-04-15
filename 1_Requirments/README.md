@@ -29,7 +29,7 @@ The optimum level of service guarantees good quality of service and it can be ev
 ## Defining the system
 Fast Charging Station in Beijing is considered for the case stduy. The following table lists out the parameters for the FCS.
 
-| Average Arrival Rate |6.9 EVs/h| Electricity Consumed|0.2 kWh/km|
+|Average Arrival Rate |6.9 EVs/h|Electricity Consumed|0.2 kWh/km|
 |----------------------|---------|------------------|--------|
 |Average Service rate|2 EVs/h|Capcity of the battery|30 kWh|
 |Radius of FCS|1.24 km|Electricity charging speed|40kW|
