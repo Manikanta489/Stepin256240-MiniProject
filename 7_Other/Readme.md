@@ -2,3 +2,12 @@
 
 @ARTICLE{7060713,  author={I. S. {Bayram} and A. {Tajer} and M. {Abdallah} and K. {Qaraqe}},  journal={IEEE Transactions on Smart Grid},   title={Capacity Planning Frameworks for Electric Vehicle Charging Stations With Multiclass Customers},   year={2015},  volume={6},  number={4},  pages={1934-1943},  doi={10.1109/TSG.2015.2406532}}
 
+@ARTICLE{7835662,
+  author={I. {Zenginis} and J. {Vardakas} and N. {Zorba} and C. {Verikoukis}},
+  journal={IEEE Transactions on Smart Grid}, 
+  title={Performance Evaluation of a Multi-Standard Fast Charging Station for Electric Vehicles}, 
+  year={2018},
+  volume={9},
+  number={5},
+  pages={4480-4489},
+  doi={10.1109/TSG.2017.2660584}}
