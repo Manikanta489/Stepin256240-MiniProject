@@ -23,7 +23,7 @@ F- Size of calling population (Finite/Infinite)
 
 In queuing theory, arrivals are distributed using Poission probability function. Thus, it is worth to follow exponential probability distibution function for service time.The queuing models for a Fast Charging Station evaluates various queue measures such as Average number of EVs in the queue, Average number of EVs in the FCS, Average time spent by EV in the queue, Average time spent by EV in the FCS and probability of finding EVs in the FCS. However, the average arrival rate at FCS and average service time in FCS should be known to formulate the queue measures as arrivals and service time follows Poisson and exponential service distribution respectively. Poisson and exponential probability distributions are indicated using 'M' to indicate the memoryless property associated with these distributions. The number of parallel servers determines the service level in the FCS. Generally, First In First Out queue discipline is followed across all queuing models to show faith on the first customer. The capacity of the system is the area of the service station. The size of calling population determines which type of customers can arrive to the service station. The following figure shows the description of FCS.
 
-![image](https://user-images.githubusercontent.com/61261829/114868839-fbbd8180-9e13-11eb-8561-06aabe8d4c1f.png)
+                                          ![image](https://user-images.githubusercontent.com/61261829/114868839-fbbd8180-9e13-11eb-8561-06aabe8d4c1f.png)
 
 
 
