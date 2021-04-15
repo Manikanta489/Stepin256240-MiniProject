@@ -40,6 +40,7 @@ Fast Charging Station in Beijing is considered for the test case study. The foll
 |Distance travelled by EV before recharging|50 km| Incoming SOC of EV|0.3|
 
 In the present work, the system capacity of the FCS is assumed to be **infinite** . The inputs which the user has to enter are explained below:
+
     - Input 1-> Average arrival rate of FCS and Average service rate of FCS  (should be positive)
     - Input 2-> Maximum number of charging piles (should be positive)
     - Input 3-> Threshold on Average time spent by EV in FCS (should be positive, enter in minutes) and Threshold on percentage idleness of charging piles (should be positive)
