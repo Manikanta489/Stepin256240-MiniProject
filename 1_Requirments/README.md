@@ -77,8 +77,12 @@ The aspiration level model determines the optimal number of charging piles for a
 ## High Level Requirements
 | ID | Description|Category|Status| 
 | ------ | ------ |------|--------|
-HR01|To provide quality of service to the EV users|Technical|Not Implemented
+HR01|To provide quality of service to the EV users|Technical|Implemented
 ## Low Level Requirements
 | ID | Description|HLR ID|Status| 
 | ------ | ------ |------|-----|
-LR01|To solve the aspiration level model for the given system parameters|HR01|Not Implemented
+LR01|Determine the system parameters of FCS from user input|HR01|Implemented
+LR02|Determine the feasible solutions of charging piles for the Aspiratiob level model|HR01|Implemented
+LR03|Evaluate the queue parameters|HR01|Implemented
+LR04|Include the supporting functions to solve queue parameters|HR05|Implemented
+LR05|Decide the optimal charging piles for the FCS which guarantee quality of service|HR05|Implemented
