@@ -48,18 +48,18 @@ Fast Charging Station in Beijing is considered for the test case study. The foll
 |Density of EV's| 150EV/km2| Total operatinh hours of FCS| 16h|
 |Distance travelled by EV before recharging|50 km| Incoming SOC of EV|0.3|
 
-In the present work, the system capacity of the FCS is assumed to be **infinite** . The inputs which the user has to enter are explained below:
+ The inputs which the user has to enter are explained below:
 
     - Input 1-> Average arrival rate of FCS and Average service rate of FCS  (should be positive)
     - Input 2-> Maximum number of charging piles (should be positive)
     - Input 3-> Threshold on Average time spent by EV in FCS (should be positive, enter in minutes) and Threshold on percentage idleness of charging piles (should be positive)
+    - Input 4-> System capacity (0 for infinite capacity, 1 for finite capacity)
 
 * If the entered data is not valid i.e., if any data entered by the user is non-positive an error message is displayed for the same
 * If memory couldn't be allocated an error message is displayed for the same
 * If the optimal number of charging piles can't be found for the entered data -1 and -1 is returned for minimum and optimum charging piles.
 
 ## SWOT ANALYSIS
-![SWOT ANALYSIS](https://user-images.githubusercontent.com/61261829/114876716-388d7680-9e1c-11eb-961c-18b791c09027.png)
 
 # 4W's and 1'H
 ## Who
@@ -82,7 +82,7 @@ HR01|To solve aspiration level model for given description of FCS|Technical|Impl
 | ID | Description|HLR ID|Status| 
 | ------ | ------ |------|-----|
 LR01|Determine the system parameters of FCS from user input|HR01|Implemented
-LR02|Determine the feasible solutions of charging piles for the Aspiratiob level model|HR01|Implemented
+LR02|Determine the feasible solutions of charging piles for the Aspiration level model|HR01|Implemented
 LR03|Evaluate the queue parameters|HR01|Implemented
 LR04|Include the supporting functions to solve queue parameters|HR05|Implemented
 LR05|Decide the optimal charging piles for the FCS which guarantee quality of service|HR05|Implemented
