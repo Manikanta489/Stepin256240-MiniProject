@@ -52,9 +52,9 @@ cpp:
 	cppcheck enable=all $(SRC) $(TEST) $(PROJECT)
 # Call 'make coverage' for code coverage
 coverage:
-	gcc $(INC) -fprofile-arcs -ftest-coverage $(SRC) $(TEST) -o $(call FixPath,$(BUILD_DIR)/$(COVERAGE_PROJ_NAME).$(EXEC))
+	gcc $(INC) -fprofile-arcs -ftest-coverage $(SRC) $(TEST) $(UNITY) -o $(call FixPath,$(BUILD_DIR)/$(COVERAGE_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(COVERAGE_PROJ_NAME).$(EXEC))
-	gcov -a $(SRC) $(TEST)
+	gcov -a $(SRC) $(TEST) $(UNITY)
 
 memcheck:
 	valgrind ./$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
