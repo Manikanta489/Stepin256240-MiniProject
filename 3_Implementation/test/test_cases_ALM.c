@@ -86,11 +86,29 @@ void queue_parameters_test_finite(void)
     queuing_system FCS[5];
     FCS[0].number_of_charging_piles=1;
     FCS[1].number_of_charging_piles=2;
+    FCS[2].number_of_charging_piles=3;
+    FCS[3].number_of_charging_piles=4;
+    FCS[4].number_of_charging_piles=5;
     TEST_ASSERT_EQUAL(2,queue_parameters(&EVFCS,FCS));
     TEST_ASSERT_EQUAL(138,FCS[0].average_time_spent_by_EV_in_FCS);
     TEST_ASSERT_EQUAL(0,FCS[0].percentage_idleness);
     TEST_ASSERT_EQUAL(61,FCS[1].average_time_spent_by_EV_in_FCS);
     TEST_ASSERT_EQUAL(3,FCS[1].percentage_idleness);
+}
+void queue_parameters_test_finiteb(void)
+{
+    system_parameters EVFCS={4,2,5,45,50,1,2,3,5};
+    queuing_system FCS[5];
+    FCS[0].number_of_charging_piles=1;
+    FCS[1].number_of_charging_piles=2;
+    FCS[2].number_of_charging_piles=3;
+    FCS[3].number_of_charging_piles=4;
+    FCS[4].number_of_charging_piles=5;
+    TEST_ASSERT_EQUAL(2,queue_parameters(&EVFCS,FCS));
+    TEST_ASSERT_EQUAL(124,FCS[0].average_time_spent_by_EV_in_FCS);
+    TEST_ASSERT_EQUAL(1,FCS[0].percentage_idleness);
+    TEST_ASSERT_EQUAL(30,FCS[1].average_time_spent_by_EV_in_FCS);
+    TEST_ASSERT_EQUAL(18,FCS[1].percentage_idleness);
 }
 void decision_making_null(void)
 {
@@ -157,6 +175,7 @@ RUN_TEST(test_possible_number_of_charging_piles_finite);
 RUN_TEST(queue_parameters_null);
 RUN_TEST(queue_parameters_test);
 RUN_TEST(queue_parameters_test_finite);
+RUN_TEST(queue_parameters_test_finiteb);
 RUN_TEST(decision_making_null);
 RUN_TEST(decision_making_data_error);
 RUN_TEST(decision_making_test);
