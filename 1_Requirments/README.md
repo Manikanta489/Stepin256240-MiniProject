@@ -60,6 +60,7 @@ Fast Charging Station in Beijing is considered for the test case study. The foll
 * If the optimal number of charging piles can't be found for the entered data -1 and -1 is returned for minimum and optimum charging piles.
 
 ## SWOT ANALYSIS
+![image](https://user-images.githubusercontent.com/61261829/121832569-fed7cf80-cce7-11eb-98b2-1232fb423f1d.png)
 
 # 4W's and 1'H
 ## Who
