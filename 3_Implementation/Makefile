@@ -35,17 +35,17 @@ PROJECT=project_main.c
 # Makefile will not run target command if the name with file already exists. To override, use .PHONY
 .PHONY : all test coverage run clean doc
 
-
-# Call `make run` to run the test cases
-run: all
-	gcc $(SRC) $(TEST) $(UNITY) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	
 # Call 'make execute' to run the main program
 	
 execute:
 	gcc $(SRC) $(PROJECT) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
+
+# Call `make test` to run the test cases
+test:
+	gcc $(SRC) $(TEST) $(UNITY) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	
 #Call 'make cpp' for static code analysis
 cpp:

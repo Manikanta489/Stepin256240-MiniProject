@@ -34,11 +34,12 @@ typedef struct
   int maximum_charging_piles;
   int average_waiting_time_in_FCS_threshold;
   int percentage_idleness_threshold;
+  int system_capacity;  
   float server_utilization;
   int server_utilization_conversion;
   int total_possible_charging_piles;
   int minimum_optimum_charging_piles;
-  int maximum_optimum_charging_piles;  
+  int maximum_optimum_charging_piles;
 }system_parameters;
 /**
  * Structure which contains the queuing model parameters
@@ -47,10 +48,12 @@ typedef struct
 {
     int number_of_charging_piles;
     float zero_customers_probability;
+    float N_customers_probability;
     float average_no_of_EVs_in_queue;
     int average_time_spent_by_EV_in_FCS;
     int percentage_idleness;
     int optimal;
+    float effective_arrival_rate;
 }queuing_system;
 /**
  * @brief Function to find Factorial of a number

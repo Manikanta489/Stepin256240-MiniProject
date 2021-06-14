@@ -11,7 +11,10 @@ error_t parameters(system_parameters* EVFCS)
     {
     EVFCS->server_utilization=EVFCS->average_arrival_rate/EVFCS->average_service_rate;
     EVFCS->server_utilization_conversion=floor(EVFCS->server_utilization);
+    if(EVFCS->system_capacity==0)
     EVFCS->total_possible_charging_piles=(EVFCS->maximum_charging_piles)-(EVFCS->server_utilization_conversion);
+    else
+    EVFCS->total_possible_charging_piles=EVFCS->maximum_charging_piles;
     return SUCESS;
     }
 }
