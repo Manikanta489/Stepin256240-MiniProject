@@ -10,32 +10,26 @@ else
 	  EXEC = out -lm
    endif
 endif
-
-TEST_PROJ_NAME = Aspriration_Level_Model_TEST
+TEST_PROJ_NAME = Math_Quiz_Test
 
 COVERAGE_PROJ_NAME=COVERAGE_$(TEST_PROJ_NAMEPROJ_NAME)
 
-PROJ_NAME= Aspriration_Level_Model
+PROJ_NAME= Math_Quiz
 
 BUILD_DIR=Build
-
 # All include folders with header files
 INC =-Iinc -Iunity
-
 # All source code files
-SRC = src/decision_making.c src/factorial.c src/parameters.c src/possible_number_of_charging_piles.c src/queue_parameters.c
-
-# All test source files
-TEST=test/test_cases_ALM.c
-UNITY=unity/unity.c
-
+SRC = src/add_quiz_question.c src/add_quiz_answer.c src/add_quiz_formula.c src/validate_answer.c src/check_question_number_entered.c
 # Main source code file
-PROJECT=project_main.c
-
+PROJECT=maths_quiz.c
+# Unity files
+UNITY=unity/unity.c
+#TEST Files
+TEST=test/test_Math_Quiz.c
 # Makefile will not run target command if the name with file already exists. To override, use .PHONY
 .PHONY : all test coverage run clean doc
 
-	
 # Call 'make execute' to run the main program
 	
 execute:
@@ -46,7 +40,6 @@ execute:
 test:
 	gcc $(SRC) $(TEST) $(UNITY) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	
 #Call 'make cpp' for static code analysis
 cpp:
 	cppcheck enable=all $(SRC) $(TEST) $(PROJECT)
@@ -55,12 +48,14 @@ coverage:
 	gcc $(INC) -fprofile-arcs -ftest-coverage $(SRC) $(TEST) $(UNITY) -o $(call FixPath,$(BUILD_DIR)/$(COVERAGE_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(COVERAGE_PROJ_NAME).$(EXEC))
 	gcov -a $(SRC) $(TEST) $(UNITY)
-
+# Call 'make memechek for memory leaks
 memcheck:
 	valgrind ./$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 	
 clean:
-	$(RM) $(call FixPath,$(BUILD_DIR)/* *.gcda *.gcov *.gcno)
+	rm -rf $(BUILD)*.gcda *.gcno *.gcov
 
 $(BUILD_DIR):
 			mkdir $(BUILD_DIR)
+
+	
